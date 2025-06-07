@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+      <meta charset = "UTF-8" />
+        <meta name ="viewport" content = "width=device-width, initial-scale=1.0"/>
+        <title>My Portfolio</title>
+      
+        <link rel = "stylesheet" href= "css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="javascript/script.js"/>
+
+    </head>
+    <body>
+        <div id = "particles-js"></div>
+        <header class="hero-section">
+            <nav class="top-nav">
+            <a href ="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <div class ='container'>
+            <img src="images/IMG-3b57431a0b96aecc0eb6857ed304482f-V.jpg" alt="My-photo" class="profile-pic" />
+            <h1>Shubhechya Palikhe</h1>
+            <p>Student &Learner</p>
+            
+            
+        </div>
+    
+        <header class="hero-section">
+            <h1>Welcome Everyone</h1>
+            <p>A fourth year Geomatics engineering student of batch 2021.Expected to graduate at the beginning of 2026.Currently exploring the geospatial world.</p>
+            
+            
+        </header>
+
+        <section id = "about">
+            <h2>About Me</h2>
+            <p>I am Shubhechya Palikhe from Pokhara currently pursuing my bachelor's degree in Kathmandu University,Dhulikhel.Currently i am in my fourth year expected to graduate at the beginning of 2026.I am passionate about learning the new Artificial intelligence, spatial domain and love learning new things. Right now, I am learning HTML,CSS and javascript and python.I enjoy reading books,trying new things.I am learning on how to properly utilize spatial data with the use of different AI methods.</p>
+        </section>
+        
+        <section id = "projects">
+            <h2>My Projects</h2>
+            <div class = "project-card">
+                <h3>Project 1</h3>
+                <p>This is the first project done in third semester after completeing all the exercise of ArcGis. </p>
+                <a href = "images\lanfillsiteselectionofpokhara.pdf" target="_blank">View My Project PDF.</a>
+                <h3>Project 2</h3>
+                <p>This is the second group project done using the application of QGIS.Evacuation Route Planning of Helambu Rural Municipality was done using Network Analysis Method.</p>
+                <a href = "images\Evacuationrouteplanning.pdf" target="_blank">View My Project PDF.</a>
+            </div>
+        </section>
+<section id ="skills">
+    <h2>Skills</h2>
+    
+        <li>ArcGis</li>
+        <li>QGIS</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    
+</section>
+        <section id = "contact">
+            <h2>Contact Me</h2>
+            <form id ="contact-form">
+                <input type ="text" placeholder="Your Name" required/>
+                <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+    </form>
+            
+        </section>
+    
+
+<div class ="social-links">
+    <a href="https://www.instagram.com/shuvhechya" target="_blank"><i class ="fab fa-instagram"></i></a>
+    <a href="https://wa.me/9864888539" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://twitter.com/Subbu426" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/shubhechya-palikhe-824272243" target="_blank"><i class =" fab fa-linkedin"></i></a>
+
+
+
+</div>
+<footer>
+    <p>&copy; 2025 Shubhechya Palikhe. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
